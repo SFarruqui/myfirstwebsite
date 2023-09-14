@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning HTML</title>
+  <!-- Internal CSS Styling -->
+  <style>
+    h1 {
+      color: rgb(208, 159, 0);
+    }
+    /* Experimenting with the styling of the table */
+    table, th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+  <!-- External CSS Styling -->
+  <link rel="stylesheet" type="text/css" href="external.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color:rgb(47, 209, 74); /* Inline CSS styling */ background-image: linear-gradient(to bottom right, mediumspringgreen, rgb(47, 109, 209));">
+
+  <!-- Header -->
+  <h1>My First HTML Page</h1>
+  <p>By: Simon Farruqui</p>
+
+  <!-- Hyperlink -->
+  <a href="https://en.wikipedia.org/wiki/Milton_Academy" target="_blank">Interesting Wikipedia Page</a><br>
+
+  <!-- Image -->
+  <img src="summer.png" alt="Image before classes started again" style="width:300px;height:200px;"><br>
+
+  <!-- Formatted Text -->
+  <p><strong>I am</strong> so excited to learn website development <sub>this semester</sub>.</p>
+
+  <!-- Table -->
+  <table>
+    <tr>
+      <th>TV Show</th>
+      <th>Genre</th>
+      <th>Number of Episodes</th>
+    </tr>
+    <tr>
+      <td>Breaking Bad</td>
+      <td>Crime, Drama</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>Spongebob</td>
+      <td>Comedy, Cartoon</td>
+      <td>236</td>
+    </tr>
+    <tr>
+      <td>Everybody Hates Chris</td>
+      <td>Sitcom, Drama</td>
+      <td>88</td>
+    </tr>
+  </table>
+
+  <!-- Shopping List -->
+  <ul>
+    <li>Milk</li>
+    <li>Bread</li>
+    <li>Cheese</li>
+  </ul>
+
+  <!-- Form -->
+  <form>
+    Class name: <input type="text" name="className"><br>
+    Teacher name: <input type="text" name="teacherName"><br>
+    Subject:
+    <select name="subject">
+      <option value="math">Math</option>
+      <option value="science">Science</option>
+      <option value="english">English</option>
+    </select><br>
+    <button type="button" onclick="alert(new Date())">Show Date and Time</button>
+  </form>
+
+  <!-- Audio to play song -->
+  <audio controls autoplay>
+    <source src="song.mp3" type="audio/mp3">
+  </audio>
+
+</body>
+</html>
